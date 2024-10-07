@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.5s; /* Smooth transition for background color */
+}
+
+.container {
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Add padding to scrollable content */
+.scroll-content {
+    height: 200vh; /* Makes the page tall enough to scroll */
+    background: #333; /* Default background color */
+}
+
+/* Style adjustments */
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
